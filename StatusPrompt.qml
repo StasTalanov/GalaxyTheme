@@ -37,7 +37,7 @@ Item
 
 
     Timer {
-            interval: 2000; running: pushSentVisible; repeat: true
+            interval: 4000; running: pushSentVisible; repeat: true
             onTriggered:
             {
                 status_push_sent.visible = false

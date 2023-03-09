@@ -15,7 +15,7 @@ Item
 
     width:          300
     height:         300
-    opacity:        isSelected ? 1.0 : 0.3
+    opacity:        isSelected ? 1.0 : 0.7
 
     Behavior on opacity
     {
@@ -48,7 +48,7 @@ Item
             {
                 id: photo
                 fillMode: Image.PreserveAspectFit
-                smooth: true
+                smooth: false
                 anchors.fill: parent
                 property bool rounded: true
                 property bool adapt: true
