@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Background.qml</file>
+        <file>UserCards.qml</file>
+        <file>UserCard.qml</file>
+        <file>StatusPrompt.qml</file>
+    </qresource>
+    <qresource prefix="/res">
+        <file>images/Accept.svg</file>
+        <file>images/BatteryStat=Attention, Size=28.svg</file>
+        <file>images/BatteryStat=Charge, Size=28.svg</file>
+        <file>images/BatteryStat=High, Size=28.svg</file>
+        <file>images/BatteryStat=Low, Size=28.svg</file>
+        <file>images/BatteryStat=Mains power, Size=28.svg</file>
+        <file>images/BatteryStat=Medium, Size=28.svg</file>
+        <file>images/Cancel.svg</file>
+        <file>images/Change user.svg</file>
+        <file>images/Log Out.svg</file>
+        <file>images/Power.svg</file>
+        <file>images/Restart.svg</file>
+        <file>images/Sleep.svg</file>
+        <file>images/Standby.svg</file>
+        <file>images/wallpaper.png</file>
+        <file>images/Orbit.png</file>
+        <file>images/photo_examp.jpg</file>
+    </qresource>
+</RCC>
