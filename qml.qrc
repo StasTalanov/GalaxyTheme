@@ -5,6 +5,11 @@
         <file>UserCards.qml</file>
         <file>UserCard.qml</file>
         <file>StatusPrompt.qml</file>
+        <file>Button.qml</file>
+        <file>ButtonsRow.qml</file>
+        <file>ControlBar.qml</file>
+        <file>RoundButton.qml</file>
+        <file>StatusBar.qml</file>
     </qresource>
     <qresource prefix="/res">
         <file>images/Accept.svg</file>
@@ -24,5 +29,8 @@
         <file>images/wallpaper.png</file>
         <file>images/Orbit.png</file>
         <file>images/photo_examp.jpg</file>
+        <file>images/sleep.png</file>
+        <file>images/power.png</file>
+        <file>images/restart.png</file>
     </qresource>
 </RCC>

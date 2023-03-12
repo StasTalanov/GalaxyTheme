@@ -3,9 +3,9 @@ import QtQuick 2.15
 Item
 {
 
-    height: 400
+    height: parent.parent * 0.25
     width: parent.width
 
-    anchors.centerIn: parent
+    y: parent.height * 0.47
 
 }
