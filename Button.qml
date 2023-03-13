@@ -7,8 +7,11 @@ Item {
     width: 180
     height: label.font.pointSize * 3
     property UserCard targetUser
-    property bool tryAgainAction: false
+    property bool loginByPush: false
     property bool tryFaceIdAction: false
+    property bool loginByFaceId: false
+    property bool tryPasswordAction: false
+    property bool loginByPassword: false
 
     Rectangle
     {
@@ -35,14 +38,25 @@ Item {
         {
             anchors.fill: parent
             onClicked: {
-                if (tryAgainAction)
+                if (loginByPush)
+                {
+                    targetUser.isAnimated = true
+                }
+                else if (loginByFaceId)
+                {
+                    targetUser.isAnimated = true
+                }
+                else if (loginByPassword)
                 {
                     targetUser.isAnimated = true
                 }
                 else if (tryFaceIdAction)
                 {
-                    targetUser.isSelected = false
-                    //isAnimated = false
+                    // Toggle off the push row
+                }
+                else if (loginByPassword)
+                {
+                    // Toggle off the faceId row
                 }
             }
         }

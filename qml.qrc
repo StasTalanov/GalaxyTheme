@@ -13,12 +13,6 @@
     </qresource>
     <qresource prefix="/res">
         <file>images/Accept.svg</file>
-        <file>images/BatteryStat=Attention, Size=28.svg</file>
-        <file>images/BatteryStat=Charge, Size=28.svg</file>
-        <file>images/BatteryStat=High, Size=28.svg</file>
-        <file>images/BatteryStat=Low, Size=28.svg</file>
-        <file>images/BatteryStat=Mains power, Size=28.svg</file>
-        <file>images/BatteryStat=Medium, Size=28.svg</file>
         <file>images/Cancel.svg</file>
         <file>images/Change user.svg</file>
         <file>images/Log Out.svg</file>
@@ -32,5 +26,11 @@
         <file>images/sleep.png</file>
         <file>images/power.png</file>
         <file>images/restart.png</file>
+        <file>images/batteryAttention.png</file>
+        <file>images/batteryCharging.png</file>
+        <file>images/batteryHigh.png</file>
+        <file>images/batteryLow.png</file>
+        <file>images/batteryMainPower.png</file>
+        <file>images/batteryMedium.png</file>
     </qresource>
 </RCC>
